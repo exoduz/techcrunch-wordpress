@@ -1,0 +1,88 @@
+/*
+Theme Name: Techcrunch
+Theme URI: https://robinjulius.com
+Author: Robin Roy Julius
+Author URI: https://robinjulius.com
+Description: TechCrunch coding assessment
+Version: 1.0
+*/
+
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700,400italic');
+
+html, body {
+	background: #f9f9f9;
+	color: #3e433e;
+	font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;;
+	font-size: 14.5px;
+}
+
+a { color: #089E00; cursor: pointer; }
+a:hover, a:focus { color: #3e433e; text-decoration: none; }
+
+h1, h2, h3, h4, h5, h6 { color: #06274b; }
+
+h3 a { color: #3e433e; }
+	h3 a:hover, h3 a:focus { color: #089E00; }
+
+header {
+	height: 125px;
+	padding: 20px 0;
+	background: #fff;
+	border-bottom: 1px solid #d4d4d4;
+}
+
+.logo-link {
+	float: left;
+	height: 90px;
+	min-width: 11.25em;
+	margin-right: 40px;
+}
+.logo { width: 100%; }
+
+.tag-line {
+	float: left;
+	padding-top: 50px;
+	font-size: 1.9rem;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+	header { height: 90px; }
+	.logo-link { height: 50px; margin-right: 0; }
+	.logo { height: 50px; }
+	.tag-line { padding-top: 20px; font-size: 1.5rem; }
+}
+
+@media (max-width: 767px) {
+	header { height: 60px; padding: 15px 0; }
+	.logo-link { height: 30px; margin-right: 0; }
+	.logo { height: 30px; width: auto; }
+	.tag-line { display: none; }
+}
+
+.entry {
+	width: 100%;
+	padding: 15px;
+	border-bottom: 1px solid #e8e8e8;
+}
+	.entry:last-child {
+		border-bottom: 0;
+	}
+
+.entry .post-image { float: right; margin-left: 15px; }
+.entry .image-caption { margin-top: 8px; font-size: 0.8rem; }
+
+@media (max-width: 767px) {
+	.article-entry { display: block; }
+	.post-image { display: block; float: none; width: 100%; margin-bottom: 12px; }
+}
+
+footer {
+	margin-top: 35px;
+	padding: 1.5em 1em 2em;
+	background: #282e28;
+	color: #a5a5a5;
+	font-size: 0.85rem;
+}
+footer a { color: #a5a5a5; }
+	footer a:hover, footer a:focus { color: #fff; }
