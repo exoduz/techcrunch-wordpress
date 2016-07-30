@@ -428,7 +428,7 @@ function get_category_techcrunch_posts($query) {
 	global $wp;
 
 	if ( !is_admin() && $query->is_main_query() ) { //available on non-admin page only and within main loop
-	  if ($wp->request == 'techcrunch'){
+	  if ( $wp->request == 'techcrunch' ) {
 			$query = wp_cache_get( 'techcrunch_cat_query' ); //check cache
 			 
 			if( $query == false ) {
@@ -440,7 +440,7 @@ function get_category_techcrunch_posts($query) {
 			}
 
 			header( 'Content-Type: application/json' ); //set header as json file
-			die( json_encode( $query->posts ) ); //output only posts
+			die( 'callback(' . json_encode( $query->posts ) . ')' ); //output only posts
 		}
 	}
 };

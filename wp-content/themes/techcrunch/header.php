@@ -25,8 +25,6 @@
   <link href="<?= get_template_directory_uri(); ?>/assets/img/favicon/homescreen_TCIcon_ipad.png" sizes="72x72" rel="apple-touch-icon-precomposed" />
   <link href="<?= get_template_directory_uri(); ?>/assets/img/favicon/homescreen_TCIcon_ipad_2x.png" sizes="144x144" rel="apple-touch-icon-precomposed" />
 
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/react/15.3.0/react.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/react/15.3.0/react-dom.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.8.34/browser.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/remarkable/1.6.2/remarkable.min.js"></script>
