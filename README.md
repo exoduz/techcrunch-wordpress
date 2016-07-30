@@ -10,7 +10,7 @@ You can use a Wordpress theme, and you are welcome to use `SASS` (or any `CSS` p
 ## Installation ##
 This is just a standard WordPress install. All the coding is in the theme.
 
-To make it run with the API please change line 27072 in `path/to/theme/js/app.js` to the URL of the actual WordPress install e.g. http://mysite.com/techcrunch. The slug techcrunch is required as this is where the JSON payload is being created.
+To make it run with the API please change `line 27072` in `path/to/theme/js/app.js` to the URL of the actual WordPress install e.g. http://mysite.com/techcrunch. The slug techcrunch is required as this is where the JSON payload is being created.
 
 ## Demo ##
 [https://robinjulius.com/work/techcrunch](https://robinjulius.com/work/techcrunch)
